@@ -10,26 +10,37 @@
 
 public class OldMacDonald2 
 {
-    
+    /**
+     * sings the eieio verse
+     */
     public static void eieio() 
     { 
         System.out.println("Old MacDonald had a farm, E I E I O.");
     }
 
-
+    /**
+     * sings the line with the had a animal
+     * @param part animal to sing about in the verse
+     */
     public static void hadA(String animal) 
     { 
         System.out.println("And on that farm he had a " + animal + ", E I E I O.");
     }
 
-
+    /**
+     * sings the line with the had a "sound", corresponding to the animal 
+     * @param part sound to sing about in the verse
+     */
     public static void withA(String sound) 
     { 
         System.out.println("With a \"" + sound + "\" \"" + sound +  "\" here and a \"" + sound + "\" \"" + sound +  "\" there.");
         System.out.println("Here a \"" + sound + "\", there a \"" + sound + "\", everywhere a \"" + sound + "\", \"" + sound + "\".");  
     }
 
-    
+    /**
+     * Sings the entire song
+     * @param animal or sound to sing about in verse
+     */
     public static void singIt(String animal, String sound) 
     {
         eieio();
