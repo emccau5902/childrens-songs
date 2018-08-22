@@ -25,8 +25,8 @@ public class OldMacDonald2
 
     public static void withA(String sound) 
     { 
-        System.out.println("With a " + sound + " " + sound +  " here and a " + sound + " " + sound +  " there.");
-        System.out.println("Here a " + sound + ", there a " + sound + ", everywhere a " + sound + ", " + sound + ".");  
+        System.out.println("With a \"" + sound + "\" \"" + sound +  "\" here and a \"" + sound + "\" \"" + sound +  "\" there.");
+        System.out.println("Here a \"" + sound + "\", there a \"" + sound + "\", everywhere a \"" + sound + "\", \"" + sound + "\".");  
     }
 
     
